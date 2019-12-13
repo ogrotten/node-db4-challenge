@@ -4,7 +4,7 @@ exports.up = function (knex) {
 		.createTable("recipes", tbl => {
 			tbl.increments();
 
-			tbl.string("name, 255")
+			tbl.string("name", 255)
 				.notNullable();
 		})
 
@@ -41,7 +41,7 @@ exports.up = function (knex) {
 				.notNullable()
 				.unsigned();
 			tbl.text("instruction")
-			notNullable();
+				.notNullable();
 			tbl.integer("recipe_id")
 				.notNullable()
 				.references("id")
