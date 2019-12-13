@@ -6,10 +6,11 @@ exports.seed = function (knex) {
 			// Inserts seed entries
 			return knex('table_name').insert([
 				{ id: 1, name: 'a box' },
-				{ id: 2, name: 'water' },
-				{ id: 3, name: 'drink mix' }
-        { id: 4, name: 'package' }
-        { id: 5, name: 'slice' }
+				{ id: 2, name: 'water gallon' },
+				{ id: 3, name: 'drink mix' },
+				{ id: 4, name: 'package' },
+				{ id: 5, name: 'slice' }
+				{ id: 6, name: 'packet' },
 			]);
 		});
 };
