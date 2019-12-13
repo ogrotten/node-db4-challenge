@@ -9,8 +9,8 @@ exports.seed = function (knex) {
 				{ id: 2, name: 'water gallon' },
 				{ id: 3, name: 'drink mix' },
 				{ id: 4, name: 'package' },
-				{ id: 5, name: 'slice' }
-				{ id: 6, name: 'packet' },
+				{ id: 5, name: 'slice' },
+				{ id: 6, name: 'packet' }
 			]);
 		});
 };

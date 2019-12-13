@@ -34,7 +34,7 @@ exports.seed = function(knex) {
 			recipe_id: 3,
 			ingredient_id: 6,
 			ingredient_amt: .5
-		},
+		}
       ]);
     });
 };
